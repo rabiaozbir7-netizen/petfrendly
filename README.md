@@ -25,6 +25,23 @@ Daha akıcı bir deneyim için bir yerel sunucu kullanabilirsiniz:
 - **Python yüklüyse:** Terminale `python -m http.server` yazın.
 - **Node.js yüklüyse:** `npx http-server` komutunu kullanın.
 
+## 📱 Mobil Görüntüleme & Expo Go
+
+Uygulamanızı telefonunuzda test etmek ve Expo Go tarzı bir QR kod deneyimi yaşamak isterseniz şu adımları izleyin:
+
+### 1. Yerel Ağ Üzerinden Görüntüleme
+1. Bilgisayarınızın **Yerel IP adresini** öğrenin (Terminale `ipconfig` yazarak!).
+2. Telefonunuzun tarayıcısına `http://IP-ADRESINIZ:3000` yazarak bağlanın.
+
+### 2. Expo Go Benzeri QR Kod ile Açma (npx expo)
+Eğer Node.js yüklüyse, Terminalinizde şu komutu çalıştırarak bir QR kod oluşturabilirsiniz:
+```bash
+npx expo start --web
+```
+- Bu komut size bir QR kod verecektir.
+- Telefonunuzdan bu kodu taratarak uygulamayı anında canlı olarak test edebilirsiniz.
+- *Not: Expo Go uygulaması genellikle React Native için kullanılır, ancak `--web` parametresi ile saf web projelerinizi de mobil tarayıcıda hızlıca test etmenize olanak tanır.*
+
 ## 🛠️ Kullanılan Teknolojiler
 
 - **HTML5:** Yapısal iskelet ve semantik içerik.
