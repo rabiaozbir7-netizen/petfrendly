@@ -33,14 +33,23 @@ Uygulamanızı telefonunuzda test etmek ve Expo Go tarzı bir QR kod deneyimi ya
 1. Bilgisayarınızın **Yerel IP adresini** öğrenin (Terminale `ipconfig` yazarak!).
 2. Telefonunuzun tarayıcısına `http://IP-ADRESINIZ:3000` yazarak bağlanın.
 
-### 2. Expo Go Benzeri QR Kod ile Açma (npx expo)
-Eğer Node.js yüklüyse, Terminalinizde şu komutu çalıştırarak bir QR kod oluşturabilirsiniz:
-```bash
-npx expo start --web
-```
-- Bu komut size bir QR kod verecektir.
-- Telefonunuzdan bu kodu taratarak uygulamayı anında canlı olarak test edebilirsiniz.
-- *Not: Expo Go uygulaması genellikle React Native için kullanılır, ancak `--web` parametresi ile saf web projelerinizi de mobil tarayıcıda hızlıca test etmenize olanak tanır.*
+### 2. Yöntem: Expo Go ile Mobil Uygulama Olarak Açma (Yeni!)
+Projeyi artık gerçek bir mobil uygulama gibi Expo Go üzerinden açabilirsiniz. Bunun için dosyalar hazırlandı:
+
+1. **Bağımlılıkları Kurun:** Bilgisayarınızda Node.js yüklü olduğundan emin olun ve terminale şunu yazın:
+   ```bash
+   npm install
+   ```
+2. **Expo'yu Başlatın:**
+   ```bash
+   npx expo start
+   ```
+3. **Telefondan Bağlanın:**
+   - Telefonunuza **Expo Go** uygulamasını (App Store/Play Store) indirin.
+   - Terminalde çıkan **QR kodu** telefonunuzun kamerasıyla taratın.
+   - Uygulama, sanki marketten inmiş bir uygulama gibi telefonunuzda açılacaktır!
+
+*Not: Proje içerisindeki `App.js`, mevcut web kodlarınızı bir `WebView` içerisine sararak mobil uyumlu hale getirir.*
 
 ## 🛠️ Kullanılan Teknolojiler
 

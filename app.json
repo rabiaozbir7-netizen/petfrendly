@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "PetFrendly",
+    "slug": "petfrendly",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./pet.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./pet.png"
+    }
+  }
+}
