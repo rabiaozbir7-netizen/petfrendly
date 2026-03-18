@@ -59,9 +59,7 @@ Projeyi artık gerçek bir mobil uygulama gibi Expo Go üzerinden açabilirsiniz
 - **Font Awesome:** Modern ikon setleri.
 - **Google Fonts (Outfit & Nunito):** Premium tipografi.
 
-## 📸 Ekran Görüntüleri
-
-*Giriş ekranından yapboz oyununa kadar tüm arayüz kullanıcı dostu ve %100 Türkçe olarak tasarlanmıştır.*
+petfreandly mobil uygulamamın youtube video linki:https://youtu.be/yGXd1iTNX9c
 
 ---
 Geliştiren: [rabiaozbir7-netizen](https://github.com/rabiaozbir7-netizen)
